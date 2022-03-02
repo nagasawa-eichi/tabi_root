@@ -12,6 +12,7 @@
        
     </head>
     <body>
+        @csrf
         <h1>みんなのルート</h1>
         <div class="name">
             <h2>{{ $root->name }}</h2>
